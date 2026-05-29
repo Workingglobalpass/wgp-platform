@@ -1,0 +1,78 @@
+/* ============================================================================
+ * WGP One — Stili globali
+ * Riferimento: AGENTS.md §9 (Brand colors — Palette Navy Fintech).
+ *
+ * Tailwind 4: niente tailwind.config.js. Tema definito qui via @theme.
+ * Le variabili CSS sono accessibili sia da Tailwind (token-)
+ * sia da CSS puro (var(--wgp-...)).
+ * ============================================================================ */
+
+@import "tailwindcss";
+
+@theme {
+  /* ---- Brand colors (palette UFFICIALE da LinkedIn 17/05/2026) ---- */
+  --color-wgp-navy:        #0A1F44;   /* primary, headers, titoli */
+  --color-wgp-navy-soft:   #1A2F54;   /* hover navy */
+  --color-wgp-electric:    #0066FF;   /* CTA, link, badge highlight */
+  --color-wgp-electric-soft: #2A7FFF; /* hover electric */
+  --color-wgp-white:       #FFFFFF;
+  --color-wgp-grey-text:   #6E7D91;   /* testo secondario */
+  --color-wgp-grey-bg:     #F5F7FA;   /* background sezioni */
+  --color-wgp-grey-line:   #E2E8F0;   /* bordi sottili */
+
+  /* ---- Badge colors (per visual gerarchia, NON UI semantica) ---- */
+  --color-badge-bronze:     #B07F3E;
+  --color-badge-standard:   #94A3B8;
+  --color-badge-silver:     #B8C1CC;
+  --color-badge-silver-plus:#7C8AA0;
+  --color-badge-gold:       #D4AF37;
+
+  /* ---- Font ---- */
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* ---- Radius ---- */
+  --radius-card: 1rem;
+  --radius-button: 0.625rem;
+}
+
+/* ---- Variabili CSS native, per uso fuori da Tailwind (es. componenti shadcn-like) ---- */
+:root {
+  --wgp-navy:         #0A1F44;
+  --wgp-navy-soft:    #1A2F54;
+  --wgp-electric:     #0066FF;
+  --wgp-electric-soft:#2A7FFF;
+  --wgp-white:        #FFFFFF;
+  --wgp-grey-text:    #6E7D91;
+  --wgp-grey-bg:      #F5F7FA;
+  --wgp-grey-line:    #E2E8F0;
+}
+
+/* ---- Base ---- */
+html, body {
+  background: var(--wgp-white);
+  color: var(--wgp-navy);
+}
+
+body {
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* IMPORTANT: dark mode è DISATTIVATO al lancio Fase A.
+   La piattaforma deve apparire identica a Stripe/Plaid/Revolut — sempre light.
+   Brief §9: reference visiva fintech bianca/navy. */
+
+/* ---- Selezione testo brand ---- */
+::selection {
+  background: var(--wgp-electric);
+  color: var(--wgp-white);
+}
+
+/* ---- Focus ring accessibile ---- */
+*:focus-visible {
+  outline: 2px solid var(--wgp-electric);
+  outline-offset: 2px;
+  border-radius: 4px;
+}

@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "forWorkers": "Pour les travailleurs",
+    "forEmployers": "Pour les employeurs",
+    "forHousing": "Logement",
+    "about": "À propos",
+    "login": "Connexion",
+    "language": "Langue"
+  },
+  "footer": {
+    "tagline": "WorkingGlobalPass — Vérification professionnelle pour le travail saisonnier.",
+    "copyright": "© 2026 WorkingGlobalPass Tech S.L.U. — marque déposée EUIPO 019351983",
+    "address": "Carrer de ses Parres 9, 07760 Ciutadella, Menorca",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "aiTransparency": "Transparence IA"
+  },
+  "landing": {
+    "hero": {
+      "tagline": "Travail vérifié. À Minorque et au-delà.",
+      "subtitle": "Certification professionnelle pour le travail saisonnier dans l'hôtellerie. Identité, expérience, compétences : tout est vérifié.",
+      "ctaPrimary": "Rejoindre la liste d'attente",
+      "ctaSecondary": "Comment ça marche"
+    },
+    "comeFunziona": {
+      "title": "Comment ça marche",
+      "subtitle": "Sept étapes optionnelles. Chacune fait monter votre Verification Score.",
+      "step0": { "title": "Identité", "desc": "Document + selfie + vidéo liveness." },
+      "step1": { "title": "Inscription", "desc": "Email vérifié + SMS." },
+      "step2": { "title": "Langues", "desc": "Profil CEFR A1–C2." },
+      "step3": { "title": "Documents", "desc": "Contrats, certificats, HACCP." },
+      "step4": { "title": "Vida Laboral", "desc": "Historique cotisations TGSS vérifié." },
+      "step5": { "title": "Matcher", "desc": "Test adaptatif par rôle (10/30/80+ questions)." },
+      "step6": { "title": "Vidéo", "desc": "Entretien court, optionnel (bêta)." },
+      "step7": { "title": "Validation", "desc": "Un examinateur senior signe le badge Gold." }
+    },
+    "badges": {
+      "title": "Les Badges WGP",
+      "subtitle": "Cinq niveaux alignés sur le Cadre Européen des Certifications (EQF).",
+      "bronze": "WGP Bronze — EQF 2-3",
+      "standard": "WGP Standard — EQF 3-4",
+      "silver": "WGP Silver — EQF 4-5",
+      "silverPlus": "WGP Silver+ — EQF 5-6",
+      "gold": "WGP Gold — EQF 6-7"
+    },
+    "audiences": {
+      "title": "À qui ça s'adresse",
+      "workers": { "title": "Pour les travailleurs", "desc": "Trouvez un emploi à Minorque avec un profil qui parle pour vous." },
+      "employers": { "title": "Pour les employeurs", "desc": "Dossier complet sur chaque candidat. Plus de temps perdu en entretiens inutiles." },
+      "housing": { "title": "Logement vérifié", "desc": "Disponible en septembre 2026.", "eta": "Septembre 2026" },
+      "volunteers": { "title": "Bénévolat", "desc": "Projets à impact et ONG.", "eta": "2027" }
+    },
+    "verifyBadge": {
+      "title": "Vérifier un badge",
+      "subtitle": "Saisissez l'ID du badge pour en contrôler la validité.",
+      "placeholder": "ID du badge",
+      "cta": "Vérifier"
+    },
+    "waitlist": {
+      "title": "Rejoindre la liste d'attente",
+      "subtitle": "Nous vous écrirons dès l'ouverture des inscriptions à Minorque (juillet 2026).",
+      "email": "Email",
+      "language": "Langue principale",
+      "role": "Êtes-vous travailleur ou employeur ?",
+      "roleWorker": "Travailleur",
+      "roleEmployer": "Employeur",
+      "submit": "S'inscrire",
+      "submitting": "Envoi en cours…",
+      "success": "C'est fait. Nous revenons vers vous très vite.",
+      "errorGeneric": "Une erreur est survenue. Réessayez dans un instant.",
+      "errorEmail": "Email non valide."
+    },
+    "trustBar": {
+      "trademark": "Marque déposée EUIPO",
+      "rgpd": "Conforme RGPD — serveurs UE",
+      "aiAct": "Transparence IA — validation humaine"
+    }
+  },
+  "comingSoon": {
+    "label": "Coming"
+  },
+  "placeholder": {
+    "label": "Sprint",
+    "default": "Page en construction. Disponible au Sprint indiqué."
+  },
+  "legal": {
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "intro": "Document en cours de finalisation avec notre conseiller RGPD (Conversia)."
+    },
+    "terms": {
+      "title": "Conditions d'utilisation",
+      "intro": "Document en cours de finalisation."
+    },
+    "aiTransparency": {
+      "title": "Transparence IA",
+      "intro": "WGP utilise des systèmes d'intelligence artificielle pour soutenir la vérification professionnelle.",
+      "doesTitle": "Ce que fait l'IA",
+      "does": "Elle analyse les réponses au Matcher pour mesurer la maîtrise technique. Elle transcrit les éventuels entretiens vidéo avec Whisper.",
+      "doesntTitle": "Ce que l'IA NE fait PAS",
+      "doesnt": "Elle n'analyse pas les expressions faciales, le regard, la voix ni aucune caractéristique biométrique. Elle ne pénalise pas la vitesse de saisie. Elle n'utilise pas la photo de profil pour juger le candidat.",
+      "humanTitle": "Décision humaine finale",
+      "human": "Le badge Gold n'est délivré qu'après la signature d'un examinateur senior. La décision finale est toujours humaine et traçable.",
+      "compliance": "Références : RGPD, AI Act UE, Directive 2000/78 anti-discrimination."
+    }
+  }
+}

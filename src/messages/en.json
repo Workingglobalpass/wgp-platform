@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "home": "Home",
+    "forWorkers": "For workers",
+    "forEmployers": "For employers",
+    "forHousing": "Housing",
+    "about": "About",
+    "login": "Log in",
+    "language": "Language"
+  },
+  "footer": {
+    "tagline": "WorkingGlobalPass — Verified work for the seasonal workforce.",
+    "copyright": "© 2026 WorkingGlobalPass Tech S.L.U. — registered trademark EUIPO 019351983",
+    "address": "Carrer de ses Parres 9, 07760 Ciutadella, Menorca",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "aiTransparency": "AI Transparency"
+  },
+  "landing": {
+    "hero": {
+      "tagline": "Verified work for the seasonal workforce.",
+      "subtitle": "Professional certification for seasonal hospitality work. Identity, experience, skills — all verified.",
+      "ctaPrimary": "Join the waitlist",
+      "ctaSecondary": "How it works"
+    },
+    "comeFunziona": {
+      "title": "How it works",
+      "subtitle": "Seven optional steps. Each one raises your Verification Score.",
+      "step0": { "title": "Identity", "desc": "Document + selfie + liveness video." },
+      "step1": { "title": "Sign up", "desc": "Verified email + SMS." },
+      "step2": { "title": "Languages", "desc": "CEFR profile A1–C2." },
+      "step3": { "title": "Documents", "desc": "Contracts, certificates, HACCP." },
+      "step4": { "title": "Work history", "desc": "Verified Spanish TGSS Vida Laboral." },
+      "step5": { "title": "Matcher", "desc": "Adaptive role-based exam (10/30/80+ questions)." },
+      "step6": { "title": "Video", "desc": "Short interview, optional (beta)." },
+      "step7": { "title": "Validation", "desc": "Senior reviewer signs the Gold badge." }
+    },
+    "badges": {
+      "title": "The WGP Badges",
+      "subtitle": "Five levels mapped to the European Qualifications Framework (EQF).",
+      "bronze": "WGP Bronze — EQF 2-3",
+      "standard": "WGP Standard — EQF 3-4",
+      "silver": "WGP Silver — EQF 4-5",
+      "silverPlus": "WGP Silver+ — EQF 5-6",
+      "gold": "WGP Gold — EQF 6-7"
+    },
+    "audiences": {
+      "title": "Who it's for",
+      "workers": { "title": "For workers", "desc": "Find a job in Menorca with a profile that speaks for you." },
+      "employers": { "title": "For employers", "desc": "Full dossier on every candidate. Save time on bad interviews." },
+      "housing": { "title": "Verified housing", "desc": "Coming September 2026.", "eta": "September 2026" },
+      "volunteers": { "title": "Volunteering", "desc": "Impact projects and NGOs.", "eta": "2027" }
+    },
+    "verifyBadge": {
+      "title": "Verify a badge",
+      "subtitle": "Enter the badge ID to check its validity.",
+      "placeholder": "Badge ID",
+      "cta": "Verify"
+    },
+    "waitlist": {
+      "title": "Join the waitlist",
+      "subtitle": "We'll reach out as soon as we open in Menorca (July 2026).",
+      "email": "Email",
+      "language": "Main language",
+      "role": "Are you a worker or an employer?",
+      "roleWorker": "Worker",
+      "roleEmployer": "Employer",
+      "submit": "Join",
+      "submitting": "Sending…",
+      "success": "You're in. We'll be in touch soon.",
+      "errorGeneric": "Something went wrong. Please try again.",
+      "errorEmail": "Invalid email."
+    },
+    "trustBar": {
+      "trademark": "Registered trademark EUIPO",
+      "rgpd": "GDPR compliant — EU servers",
+      "aiAct": "AI transparency — human validation"
+    }
+  },
+  "comingSoon": {
+    "label": "Coming"
+  },
+  "placeholder": {
+    "label": "Sprint",
+    "default": "Page under construction. Available in the indicated Sprint."
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Notice",
+      "intro": "Document being finalised with our GDPR advisor (Conversia)."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "intro": "Document being finalised."
+    },
+    "aiTransparency": {
+      "title": "AI Transparency",
+      "intro": "WGP uses AI systems to support professional verification.",
+      "doesTitle": "What AI does",
+      "does": "Analyses Matcher answers to measure technical mastery. Transcribes video interviews with Whisper.",
+      "doesntTitle": "What AI does NOT do",
+      "doesnt": "It does not analyse facial expressions, gaze, voice or biometric features. It does not penalise typing speed. It does not use the profile photo to judge the candidate.",
+      "humanTitle": "Final human decision",
+      "human": "The Gold badge is only issued after a senior reviewer signs. The final decision is always human and traceable.",
+      "compliance": "References: GDPR, EU AI Act, Directive 2000/78 on anti-discrimination."
+    }
+  }
+}

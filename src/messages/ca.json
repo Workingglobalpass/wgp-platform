@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "home": "Inici",
+    "forWorkers": "Per a treballadors",
+    "forEmployers": "Per a empreses",
+    "forHousing": "Allotjament",
+    "about": "Sobre nosaltres",
+    "login": "Entrar",
+    "language": "Idioma"
+  },
+  "footer": {
+    "tagline": "WorkingGlobalPass — Verificació professional per al treball de temporada.",
+    "copyright": "© 2026 WorkingGlobalPass Tech S.L.U. — marca registrada EUIPO 019351983",
+    "address": "Carrer de ses Parres 9, 07760 Ciutadella, Menorca",
+    "privacy": "Privadesa",
+    "terms": "Termes",
+    "aiTransparency": "Transparència IA"
+  },
+  "landing": {
+    "hero": {
+      "tagline": "Treballa verificat. A Menorca i més enllà.",
+      "subtitle": "Certificació professional per al treball estacional d'hostaleria. Identitat, experiència, competències: tot verificat.",
+      "ctaPrimary": "Apunta't a la waitlist",
+      "ctaSecondary": "Com funciona"
+    },
+    "comeFunziona": {
+      "title": "Com funciona",
+      "subtitle": "Set passos opcionals. Cada pas puja el teu Verification Score.",
+      "step0": { "title": "Identitat", "desc": "Document + selfie + vídeo liveness." },
+      "step1": { "title": "Registre", "desc": "Email verificat + SMS." },
+      "step2": { "title": "Idiomes", "desc": "Perfil CEFR A1–C2." },
+      "step3": { "title": "Documents", "desc": "Contractes, certificats, HACCP." },
+      "step4": { "title": "Vida Laboral", "desc": "Històric TGSS verificat." },
+      "step5": { "title": "Matcher", "desc": "Examen adaptatiu per rol (10/30/80+ preguntes)." },
+      "step6": { "title": "Vídeo", "desc": "Entrevista breu, opcional (beta)." },
+      "step7": { "title": "Validació", "desc": "Revisor sènior signa el badge Gold." }
+    },
+    "badges": {
+      "title": "Els Badges WGP",
+      "subtitle": "Cinc nivells mapats al Marc Europeu de Qualificacions (EQF).",
+      "bronze": "WGP Bronze — EQF 2-3",
+      "standard": "WGP Standard — EQF 3-4",
+      "silver": "WGP Silver — EQF 4-5",
+      "silverPlus": "WGP Silver+ — EQF 5-6",
+      "gold": "WGP Gold — EQF 6-7"
+    },
+    "audiences": {
+      "title": "Per a qui és",
+      "workers": { "title": "Per a treballadors", "desc": "Troba feina a Menorca amb un perfil que parla per tu." },
+      "employers": { "title": "Per a empreses", "desc": "Dossier complet dels candidats. Estalvia entrevistes inútils." },
+      "housing": { "title": "Allotjament verificat", "desc": "Arriba el setembre del 2026.", "eta": "Setembre 2026" },
+      "volunteers": { "title": "Voluntariat", "desc": "Projectes d'impacte i ONG.", "eta": "2027" }
+    },
+    "verifyBadge": {
+      "title": "Verifica un badge",
+      "subtitle": "Introdueix l'ID del badge per comprovar-ne la validesa.",
+      "placeholder": "ID del badge",
+      "cta": "Verificar"
+    },
+    "waitlist": {
+      "title": "Apunta't a la waitlist",
+      "subtitle": "T'escriurem quan obrim les inscripcions a Menorca (juliol 2026).",
+      "email": "Email",
+      "language": "Idioma principal",
+      "role": "Ets treballador o empresa?",
+      "roleWorker": "Treballador",
+      "roleEmployer": "Empresa",
+      "submit": "Apuntar-me",
+      "submitting": "Enviant…",
+      "success": "Hi ets. T'escrivim aviat.",
+      "errorGeneric": "Alguna cosa ha fallat. Torna-ho a provar.",
+      "errorEmail": "Email no vàlid."
+    },
+    "trustBar": {
+      "trademark": "Marca registrada EUIPO",
+      "rgpd": "Compleix RGPD — servidors UE",
+      "aiAct": "Transparència IA — validació humana"
+    }
+  },
+  "comingSoon": {
+    "label": "Coming"
+  },
+  "placeholder": {
+    "label": "Sprint",
+    "default": "Pàgina en construcció. Disponible al Sprint indicat."
+  },
+  "legal": {
+    "privacy": {
+      "title": "Política de Privadesa",
+      "intro": "Document en fase de finalització amb el nostre assessor RGPD (Conversia)."
+    },
+    "terms": {
+      "title": "Termes del servei",
+      "intro": "Document en fase de finalització."
+    },
+    "aiTransparency": {
+      "title": "Transparència IA",
+      "intro": "WGP utilitza sistemes d'intel·ligència artificial per donar suport a la verificació professional.",
+      "doesTitle": "Què fa la IA",
+      "does": "Analitza les respostes del Matcher per mesurar el domini tècnic. Transcriu entrevistes en vídeo amb Whisper.",
+      "doesntTitle": "Què NO fa la IA",
+      "doesnt": "No analitza expressions facials, mirada, veu ni característiques biomètriques. No usa la velocitat d'escriptura com a penalització. No usa la foto de perfil per jutjar el candidat.",
+      "humanTitle": "Decisió humana final",
+      "human": "El badge Gold només s'emet després de la signatura d'un revisor sènior. La decisió final sempre és humana i traçable.",
+      "compliance": "Referències: RGPD, AI Act UE, Directiva 2000/78 antidiscriminació."
+    }
+  }
+}
