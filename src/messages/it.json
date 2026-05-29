@@ -106,5 +106,83 @@
       "human": "Il badge Gold viene emesso solo dopo la firma di un revisore senior. La decisione finale è sempre umana e tracciata.",
       "compliance": "Riferimenti: RGPD, AI Act UE, Direttiva 2000/78 anti-discriminazione."
     }
+  },
+  "partner": {
+    "hero": {
+      "kicker": "Per i partner",
+      "title": "Distribuisci WGP ai tuoi clienti",
+      "subtitle": "Sei un consulente del lavoro, un'agenzia di recruiting o di somministrazione, una gestoría o un portale di lavoro? Diventa partner WGP e porta la verifica professionale ai tuoi clienti."
+    },
+    "formTitle": "Diventa partner WGP",
+    "formSubtitle": "Compila il form. Ti contattiamo entro 2 giorni lavorativi.",
+    "form": {
+      "tipoPartner": {
+        "label": "Tipo di partner",
+        "options": {
+          "consulente_lavoro": "Consulente del lavoro",
+          "agenzia_recruiting": "Agenzia di recruiting",
+          "agenzia_somministrazione": "Agenzia di somministrazione",
+          "gestoria": "Gestoría",
+          "portale_recruiting": "Portale di recruiting",
+          "altro": "Altro"
+        }
+      },
+      "ragioneSociale": { "label": "Ragione sociale" },
+      "nomeContatto": { "label": "Nome contatto" },
+      "email": { "label": "Email" },
+      "telefono": { "label": "Telefono" },
+      "territorio": { "label": "Territorio", "placeholder": "Es. Italia, Spagna, Lombardia…" },
+      "pIva": { "label": "P. IVA / CIF" },
+      "sitoWeb": { "label": "Sito web", "placeholder": "esempio.com" },
+      "note": { "label": "Note" },
+      "submit": "Invia richiesta",
+      "submitting": "Invio in corso…",
+      "success": "Richiesta inviata.",
+      "successSubtitle": "Ti ricontatteremo entro 2 giorni lavorativi.",
+      "errorGeneric": "Qualcosa è andato storto. Riprova tra poco.",
+      "errors": {
+        "required": "Obbligatorio",
+        "email": "Email non valida",
+        "url": "URL non valido. Esempi: esempio.com, www.esempio.com"
+      }
+    }
+  },
+  "admin": {
+    "login": {
+      "title": "Accesso admin",
+      "subtitle": "Inserisci il token amministratore per continuare.",
+      "tokenLabel": "Token",
+      "submit": "Entra",
+      "submitting": "Verifica…",
+      "errorInvalid": "Token non valido."
+    },
+    "partners": {
+      "title": "Partner",
+      "subtitle": "Lead raccolti dal form /partner.",
+      "filterTipo": "Tipo",
+      "filterStato": "Stato",
+      "filterAll": "Tutti",
+      "empty": "Nessun partner ancora.",
+      "count": "{count} partner",
+      "exportCsv": "Esporta CSV",
+      "logout": "Esci",
+      "columns": {
+        "ragione_sociale": "Ragione sociale",
+        "tipo": "Tipo",
+        "contatto": "Contatto",
+        "email": "Email",
+        "territorio": "Territorio",
+        "stato": "Stato",
+        "created_at": "Creato",
+        "azioni": "Azioni"
+      },
+      "stato": {
+        "nuovo": "Nuovo",
+        "contattato": "Contattato",
+        "in_trattativa": "In trattativa",
+        "chiuso": "Chiuso"
+      },
+      "updateStatoError": "Errore aggiornamento."
+    }
   }
 }

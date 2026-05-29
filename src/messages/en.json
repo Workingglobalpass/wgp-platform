@@ -106,5 +106,83 @@
       "human": "The Gold badge is only issued after a senior reviewer signs. The final decision is always human and traceable.",
       "compliance": "References: GDPR, EU AI Act, Directive 2000/78 on anti-discrimination."
     }
+  },
+  "partner": {
+    "hero": {
+      "kicker": "For partners",
+      "title": "Distribute WGP to your clients",
+      "subtitle": "Are you a labour consultant, a recruiting or staffing agency, a gestoría or a job portal? Become a WGP partner and bring verified work to your clients."
+    },
+    "formTitle": "Become a WGP partner",
+    "formSubtitle": "Fill in the form. We'll get back to you within 2 working days.",
+    "form": {
+      "tipoPartner": {
+        "label": "Partner type",
+        "options": {
+          "consulente_lavoro": "Labour consultant",
+          "agenzia_recruiting": "Recruiting agency",
+          "agenzia_somministrazione": "Staffing agency",
+          "gestoria": "Gestoría",
+          "portale_recruiting": "Job portal",
+          "altro": "Other"
+        }
+      },
+      "ragioneSociale": { "label": "Company name" },
+      "nomeContatto": { "label": "Contact name" },
+      "email": { "label": "Email" },
+      "telefono": { "label": "Phone" },
+      "territorio": { "label": "Territory", "placeholder": "e.g. Spain, Italy, Catalonia…" },
+      "pIva": { "label": "VAT number" },
+      "sitoWeb": { "label": "Website", "placeholder": "example.com" },
+      "note": { "label": "Notes" },
+      "submit": "Send request",
+      "submitting": "Sending…",
+      "success": "Request sent.",
+      "successSubtitle": "We'll get back to you within 2 working days.",
+      "errorGeneric": "Something went wrong. Please try again.",
+      "errors": {
+        "required": "Required",
+        "email": "Invalid email",
+        "url": "Invalid URL. Examples: example.com, www.example.com"
+      }
+    }
+  },
+  "admin": {
+    "login": {
+      "title": "Admin access",
+      "subtitle": "Enter the admin token to continue.",
+      "tokenLabel": "Token",
+      "submit": "Sign in",
+      "submitting": "Verifying…",
+      "errorInvalid": "Invalid token."
+    },
+    "partners": {
+      "title": "Partners",
+      "subtitle": "Leads collected from the /partner form.",
+      "filterTipo": "Type",
+      "filterStato": "Status",
+      "filterAll": "All",
+      "empty": "No partners yet.",
+      "count": "{count} partners",
+      "exportCsv": "Export CSV",
+      "logout": "Log out",
+      "columns": {
+        "ragione_sociale": "Company name",
+        "tipo": "Type",
+        "contatto": "Contact",
+        "email": "Email",
+        "territorio": "Territory",
+        "stato": "Status",
+        "created_at": "Created",
+        "azioni": "Actions"
+      },
+      "stato": {
+        "nuovo": "New",
+        "contattato": "Contacted",
+        "in_trattativa": "In negotiation",
+        "chiuso": "Closed"
+      },
+      "updateStatoError": "Update error."
+    }
   }
 }

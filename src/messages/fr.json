@@ -106,5 +106,83 @@
       "human": "Le badge Gold n'est délivré qu'après la signature d'un examinateur senior. La décision finale est toujours humaine et traçable.",
       "compliance": "Références : RGPD, AI Act UE, Directive 2000/78 anti-discrimination."
     }
+  },
+  "partner": {
+    "hero": {
+      "kicker": "Pour les partenaires",
+      "title": "Distribuez WGP à vos clients",
+      "subtitle": "Vous êtes consultant en droit du travail, agence de recrutement ou de travail temporaire, gestoría ou portail d'emploi ? Devenez partenaire WGP et apportez la vérification professionnelle à vos clients."
+    },
+    "formTitle": "Devenez partenaire WGP",
+    "formSubtitle": "Remplissez le formulaire. Nous revenons vers vous sous 2 jours ouvrés.",
+    "form": {
+      "tipoPartner": {
+        "label": "Type de partenaire",
+        "options": {
+          "consulente_lavoro": "Consultant en droit du travail",
+          "agenzia_recruiting": "Agence de recrutement",
+          "agenzia_somministrazione": "Agence de travail temporaire",
+          "gestoria": "Gestoría",
+          "portale_recruiting": "Portail d'emploi",
+          "altro": "Autre"
+        }
+      },
+      "ragioneSociale": { "label": "Raison sociale" },
+      "nomeContatto": { "label": "Nom du contact" },
+      "email": { "label": "Email" },
+      "telefono": { "label": "Téléphone" },
+      "territorio": { "label": "Territoire", "placeholder": "Ex. France, Italie, Catalogne…" },
+      "pIva": { "label": "N° TVA / SIRET" },
+      "sitoWeb": { "label": "Site web", "placeholder": "exemple.com" },
+      "note": { "label": "Notes" },
+      "submit": "Envoyer la demande",
+      "submitting": "Envoi en cours…",
+      "success": "Demande envoyée.",
+      "successSubtitle": "Nous revenons vers vous sous 2 jours ouvrés.",
+      "errorGeneric": "Une erreur est survenue. Réessayez dans un instant.",
+      "errors": {
+        "required": "Obligatoire",
+        "email": "Email non valide",
+        "url": "URL non valide. Exemples : exemple.com, www.exemple.com"
+      }
+    }
+  },
+  "admin": {
+    "login": {
+      "title": "Accès admin",
+      "subtitle": "Saisissez le jeton administrateur pour continuer.",
+      "tokenLabel": "Jeton",
+      "submit": "Se connecter",
+      "submitting": "Vérification…",
+      "errorInvalid": "Jeton non valide."
+    },
+    "partners": {
+      "title": "Partenaires",
+      "subtitle": "Leads collectés via le formulaire /partner.",
+      "filterTipo": "Type",
+      "filterStato": "Statut",
+      "filterAll": "Tous",
+      "empty": "Aucun partenaire pour le moment.",
+      "count": "{count} partenaires",
+      "exportCsv": "Exporter CSV",
+      "logout": "Se déconnecter",
+      "columns": {
+        "ragione_sociale": "Raison sociale",
+        "tipo": "Type",
+        "contatto": "Contact",
+        "email": "Email",
+        "territorio": "Territoire",
+        "stato": "Statut",
+        "created_at": "Créé",
+        "azioni": "Actions"
+      },
+      "stato": {
+        "nuovo": "Nouveau",
+        "contattato": "Contacté",
+        "in_trattativa": "En négociation",
+        "chiuso": "Fermé"
+      },
+      "updateStatoError": "Erreur de mise à jour."
+    }
   }
 }

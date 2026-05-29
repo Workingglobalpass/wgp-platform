@@ -106,5 +106,83 @@
       "human": "El badge Gold només s'emet després de la signatura d'un revisor sènior. La decisió final sempre és humana i traçable.",
       "compliance": "Referències: RGPD, AI Act UE, Directiva 2000/78 antidiscriminació."
     }
+  },
+  "partner": {
+    "hero": {
+      "kicker": "Per a partners",
+      "title": "Distribueix WGP als teus clients",
+      "subtitle": "Ets consultor laboral, agència de recruiting o ETT, gestoria o portal de feina? Fes-te partner WGP i porta la verificació professional als teus clients."
+    },
+    "formTitle": "Fes-te partner WGP",
+    "formSubtitle": "Omple el formulari. Et contactem en 2 dies laborables.",
+    "form": {
+      "tipoPartner": {
+        "label": "Tipus de partner",
+        "options": {
+          "consulente_lavoro": "Consultor laboral",
+          "agenzia_recruiting": "Agència de recruiting",
+          "agenzia_somministrazione": "ETT / subministrament de personal",
+          "gestoria": "Gestoria",
+          "portale_recruiting": "Portal de feina",
+          "altro": "Altre"
+        }
+      },
+      "ragioneSociale": { "label": "Raó social" },
+      "nomeContatto": { "label": "Nom de contacte" },
+      "email": { "label": "Email" },
+      "telefono": { "label": "Telèfon" },
+      "territorio": { "label": "Territori", "placeholder": "Ex. Catalunya, Espanya, Itàlia…" },
+      "pIva": { "label": "CIF / NIF" },
+      "sitoWeb": { "label": "Lloc web", "placeholder": "exemple.com" },
+      "note": { "label": "Notes" },
+      "submit": "Enviar sol·licitud",
+      "submitting": "Enviant…",
+      "success": "Sol·licitud enviada.",
+      "successSubtitle": "Et contactarem en 2 dies laborables.",
+      "errorGeneric": "Alguna cosa ha fallat. Torna-ho a provar.",
+      "errors": {
+        "required": "Obligatori",
+        "email": "Email no vàlid",
+        "url": "URL no vàlid. Exemples: exemple.com, www.exemple.com"
+      }
+    }
+  },
+  "admin": {
+    "login": {
+      "title": "Accés admin",
+      "subtitle": "Introdueix el token d'administrador per continuar.",
+      "tokenLabel": "Token",
+      "submit": "Entrar",
+      "submitting": "Verificant…",
+      "errorInvalid": "Token no vàlid."
+    },
+    "partners": {
+      "title": "Partners",
+      "subtitle": "Leads recollits del formulari /partner.",
+      "filterTipo": "Tipus",
+      "filterStato": "Estat",
+      "filterAll": "Tots",
+      "empty": "Encara no hi ha partners.",
+      "count": "{count} partners",
+      "exportCsv": "Exportar CSV",
+      "logout": "Sortir",
+      "columns": {
+        "ragione_sociale": "Raó social",
+        "tipo": "Tipus",
+        "contatto": "Contacte",
+        "email": "Email",
+        "territorio": "Territori",
+        "stato": "Estat",
+        "created_at": "Creat",
+        "azioni": "Accions"
+      },
+      "stato": {
+        "nuovo": "Nou",
+        "contattato": "Contactat",
+        "in_trattativa": "En negociació",
+        "chiuso": "Tancat"
+      },
+      "updateStatoError": "Error d'actualització."
+    }
   }
 }

@@ -106,5 +106,83 @@
       "human": "El badge Gold solo se emite tras la firma de un revisor senior. La decisión final es siempre humana y trazable.",
       "compliance": "Referencias: RGPD, AI Act UE, Directiva 2000/78 anti-discriminación."
     }
+  },
+  "partner": {
+    "hero": {
+      "kicker": "Para partners",
+      "title": "Distribuye WGP a tus clientes",
+      "subtitle": "¿Eres consultor laboral, agencia de recruiting o ETT, gestoría o portal de empleo? Hazte partner WGP y lleva la verificación profesional a tus clientes."
+    },
+    "formTitle": "Hazte partner WGP",
+    "formSubtitle": "Rellena el formulario. Te contactamos en 2 días laborables.",
+    "form": {
+      "tipoPartner": {
+        "label": "Tipo de partner",
+        "options": {
+          "consulente_lavoro": "Consultor laboral",
+          "agenzia_recruiting": "Agencia de recruiting",
+          "agenzia_somministrazione": "ETT / suministro de personal",
+          "gestoria": "Gestoría",
+          "portale_recruiting": "Portal de empleo",
+          "altro": "Otro"
+        }
+      },
+      "ragioneSociale": { "label": "Razón social" },
+      "nomeContatto": { "label": "Nombre de contacto" },
+      "email": { "label": "Email" },
+      "telefono": { "label": "Teléfono" },
+      "territorio": { "label": "Territorio", "placeholder": "Ej. España, Italia, Cataluña…" },
+      "pIva": { "label": "CIF / P. IVA" },
+      "sitoWeb": { "label": "Sitio web", "placeholder": "ejemplo.com" },
+      "note": { "label": "Notas" },
+      "submit": "Enviar solicitud",
+      "submitting": "Enviando…",
+      "success": "Solicitud enviada.",
+      "successSubtitle": "Te contactaremos en 2 días laborables.",
+      "errorGeneric": "Algo salió mal. Vuelve a intentarlo.",
+      "errors": {
+        "required": "Obligatorio",
+        "email": "Email no válido",
+        "url": "URL no válida. Ejemplos: ejemplo.com, www.ejemplo.com"
+      }
+    }
+  },
+  "admin": {
+    "login": {
+      "title": "Acceso admin",
+      "subtitle": "Introduce el token de administrador para continuar.",
+      "tokenLabel": "Token",
+      "submit": "Entrar",
+      "submitting": "Verificando…",
+      "errorInvalid": "Token no válido."
+    },
+    "partners": {
+      "title": "Partners",
+      "subtitle": "Leads recogidos del formulario /partner.",
+      "filterTipo": "Tipo",
+      "filterStato": "Estado",
+      "filterAll": "Todos",
+      "empty": "Aún no hay partners.",
+      "count": "{count} partners",
+      "exportCsv": "Exportar CSV",
+      "logout": "Salir",
+      "columns": {
+        "ragione_sociale": "Razón social",
+        "tipo": "Tipo",
+        "contatto": "Contacto",
+        "email": "Email",
+        "territorio": "Territorio",
+        "stato": "Estado",
+        "created_at": "Creado",
+        "azioni": "Acciones"
+      },
+      "stato": {
+        "nuovo": "Nuevo",
+        "contattato": "Contactado",
+        "in_trattativa": "En negociación",
+        "chiuso": "Cerrado"
+      },
+      "updateStatoError": "Error al actualizar."
+    }
   }
 }

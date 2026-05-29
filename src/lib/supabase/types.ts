@@ -74,6 +74,73 @@ export type Database = {
         };
         Relationships: [];
       };
+      partners: {
+        Row: {
+          id: string;
+          ragione_sociale: string;
+          tipo_partner:
+            | 'consulente_lavoro'
+            | 'agenzia_recruiting'
+            | 'agenzia_somministrazione'
+            | 'gestoria'
+            | 'portale_recruiting'
+            | 'altro';
+          territorio: string | null;
+          p_iva: string | null;
+          nome_contatto: string;
+          email: string;
+          telefono: string | null;
+          sito_web: string | null;
+          note: string | null;
+          stato: 'nuovo' | 'contattato' | 'in_trattativa' | 'chiuso';
+          created_at: string;
+          updated_at: string;
+        };
+        Insert: {
+          id?: string;
+          ragione_sociale: string;
+          tipo_partner:
+            | 'consulente_lavoro'
+            | 'agenzia_recruiting'
+            | 'agenzia_somministrazione'
+            | 'gestoria'
+            | 'portale_recruiting'
+            | 'altro';
+          territorio?: string | null;
+          p_iva?: string | null;
+          nome_contatto: string;
+          email: string;
+          telefono?: string | null;
+          sito_web?: string | null;
+          note?: string | null;
+          // Default DB 'nuovo'. Il form pubblico NON deve passare questo campo.
+          stato?: 'nuovo' | 'contattato' | 'in_trattativa' | 'chiuso';
+          created_at?: string;
+          updated_at?: string;
+        };
+        Update: {
+          id?: string;
+          ragione_sociale?: string;
+          tipo_partner?:
+            | 'consulente_lavoro'
+            | 'agenzia_recruiting'
+            | 'agenzia_somministrazione'
+            | 'gestoria'
+            | 'portale_recruiting'
+            | 'altro';
+          territorio?: string | null;
+          p_iva?: string | null;
+          nome_contatto?: string;
+          email?: string;
+          telefono?: string | null;
+          sito_web?: string | null;
+          note?: string | null;
+          stato?: 'nuovo' | 'contattato' | 'in_trattativa' | 'chiuso';
+          created_at?: string;
+          updated_at?: string;
+        };
+        Relationships: [];
+      };
     };
     Views: Record<string, never>;
     Functions: Record<string, never>;
