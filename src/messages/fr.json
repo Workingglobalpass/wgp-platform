@@ -12,6 +12,8 @@
     "tagline": "WorkingGlobalPass — Vérification professionnelle pour le travail saisonnier.",
     "copyright": "© 2026 WorkingGlobalPass Tech S.L.U. — marque déposée EUIPO 019351983",
     "address": "Carrer de ses Parres 9, 07760 Ciutadella, Menorca",
+    "contact": "Contact",
+    "email": "info@workingglobalpass.org",
     "privacy": "Confidentialité",
     "terms": "Conditions",
     "aiTransparency": "Transparence IA"
@@ -81,8 +83,8 @@
     "label": "Coming"
   },
   "placeholder": {
-    "label": "Sprint",
-    "default": "Page en construction. Disponible au Sprint indiqué."
+    "title": "Prochainement",
+    "subtitle": "Nous construisons cette section. Rejoignez la liste d'attente pour y accéder parmi les premiers."
   },
   "legal": {
     "privacy": {

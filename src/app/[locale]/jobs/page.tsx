@@ -1,4 +1,4 @@
 import Placeholder from '@/components/placeholder';
 export default function Page() {
-  return <Placeholder title="Offerte di lavoro" sprint={4} />;
+  return <Placeholder title="Offerte di lavoro" />;
 }

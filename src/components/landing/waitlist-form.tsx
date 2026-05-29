@@ -14,12 +14,24 @@ import { Select } from '@/components/ui/select';
 import { track } from '@/lib/analytics/track';
 import type { Locale } from '@/i18n/routing';
 
+// IMPORTANT: il vincolo CHECK su waitlist.language nel DB ammette solo questi 4.
+// Aggiungere 'fr' richiederebbe una migration SQL. Per ora gli utenti francesi
+// hanno la UI in fr ma il loro lead viene salvato con language='es' (fallback).
+// TODO: migrazione 5 per estendere il CHECK + aggiungere 'fr' qui quando si vorrà
+// trattare il francese come mercato attivo.
+const WAITLIST_LANGS = ['it', 'es', 'en', 'ca'] as const;
+type WaitlistLang = (typeof WAITLIST_LANGS)[number];
+
 const formSchema = z.object({
   email: z.string().email(),
-  language: z.enum(['it', 'es', 'en', 'ca']),
+  language: z.enum(WAITLIST_LANGS),
   role: z.enum(['worker', 'employer']),
 });
 type FormValues = z.infer<typeof formSchema>;
+
+function toWaitlistLang(l: Locale): WaitlistLang {
+  return l === 'it' || l === 'en' || l === 'ca' || l === 'es' ? l : 'es';
+}
 
 export default function WaitlistForm() {
   const t = useTranslations('landing.waitlist');
@@ -28,7 +40,7 @@ export default function WaitlistForm() {
 
   const { register, handleSubmit, formState } = useForm<FormValues>({
     resolver: zodResolver(formSchema),
-    defaultValues: { language: currentLocale, role: 'worker' },
+    defaultValues: { language: toWaitlistLang(currentLocale), role: 'worker' },
   });
 
   const onSubmit = async (values: FormValues) => {

@@ -17,6 +17,15 @@ export default async function SiteFooter() {
             </div>
             <p className="mt-3 max-w-md text-sm text-[var(--wgp-grey-text)]">{t('tagline')}</p>
             <p className="mt-2 text-xs text-[var(--wgp-grey-text)]">{t('address')}</p>
+            <p className="mt-2 text-xs text-[var(--wgp-grey-text)]">
+              {t('contact')}:{' '}
+              <a
+                href={`mailto:${t('email')}`}
+                className="text-[var(--wgp-grey-text)] underline-offset-2 hover:text-[var(--wgp-navy)] hover:underline"
+              >
+                {t('email')}
+              </a>
+            </p>
           </div>
           <div className="flex flex-col gap-2 text-sm sm:items-end">
             <Link href="/privacy" className="text-[var(--wgp-grey-text)] hover:text-[var(--wgp-navy)]">{t('privacy')}</Link>

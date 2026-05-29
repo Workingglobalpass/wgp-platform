@@ -1,4 +1,4 @@
 import Placeholder from '@/components/placeholder';
 export default function Page() {
-  return <Placeholder title="Coda revisori (Step 7)" sprint={4} />;
+  return <Placeholder title="Coda revisori (Step 7)" />;
 }
