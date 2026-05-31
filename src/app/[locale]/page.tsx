@@ -45,7 +45,7 @@ export default async function HomePage({
         <div className="mx-auto max-w-6xl px-6 py-24 sm:py-32">
           <div className="max-w-3xl">
             <p className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-medium uppercase tracking-wider text-white/80">
-              <ShieldCheck size={14} /> Menorca · 2026
+              <ShieldCheck size={14} /> BALEARES · 2026
             </p>
             <h1 className="text-4xl sm:text-6xl font-semibold tracking-tight leading-[1.05]">
               {t('hero.tagline')}
