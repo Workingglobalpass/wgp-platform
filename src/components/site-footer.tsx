@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
 import { getTranslations } from 'next-intl/server';
 
@@ -9,11 +10,17 @@ export default async function SiteFooter() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 py-12">
         <div className="grid gap-8 sm:grid-cols-2">
           <div>
-            <div className="flex items-center gap-2 text-[var(--wgp-navy)]">
-              <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--wgp-navy)] text-white text-xs font-bold">
-                WGP
+            <div className="flex items-center gap-2">
+              <Image
+                src="/icon.png"
+                alt=""
+                width={512}
+                height={512}
+                className="h-8 w-8 sm:h-10 sm:w-10"
+              />
+              <span className="text-base font-semibold text-[var(--wgp-navy)] sm:text-lg">
+                WorkingGlobalPass
               </span>
-              <span className="text-sm font-semibold">WorkingGlobalPass</span>
             </div>
             <p className="mt-3 max-w-md text-sm text-[var(--wgp-grey-text)]">{t('tagline')}</p>
             <p className="mt-2 text-xs text-[var(--wgp-grey-text)]">{t('address')}</p>
